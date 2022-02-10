@@ -119,6 +119,12 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+
+.amazing-artical {
+  display: flex;
+  transform: translateX(-184px);
+}
+
 .hamburger,.cross {
   width: 100px;
   height: 100px;
@@ -129,6 +135,11 @@ li {
   align-items: center;
   background-color: #FF7979;
   text-indent: -9999px;
+}
+
+.cross {
+  left: 85px;
+  border-radius: 0 0 0 100px;
 }
 
 .hamburger::before,.cross::before {
