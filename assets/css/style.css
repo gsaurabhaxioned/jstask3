@@ -119,7 +119,15 @@ li {
 /*=================================
   main styling starts here
 =================================*/
-
+.hamburger {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  border-radius: 0 0 100px 0;
+  display: inline-block;
+  background-color: #FF7979;
+  text-indent: -9999px;
+}
 
 
 
