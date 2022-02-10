@@ -142,22 +142,36 @@ li {
   text-indent: 0;
 }
 
-.amazing-artical h2 {
-  font-weight: bold;
-  font-size: 27px;
+.amazing-artical .wrapper {
+  padding: 6.8% 0;
 }
 
-.amazing-artical .wrapper span {
+.amazing-artical h2 {
+  font-size: 31px;
+  font-weight: bold;
+}
+
+.florin {
   font-size: 14px;
   font-style: italic;
   opacity: 0.7;
 }
 
 .amazing-artical p {
+  margin-top: 21px;
   font-size: 15px;
+  line-height: 23px;
 }
 
+.amazing-artical h3 {
+  margin-top: 54px;
+  font-size: 18px;
+  font-weight: bold;
+}
 
+.amazing-artical figure {
+  margin-top: 19px;
+}
 
 
 /*=================================
