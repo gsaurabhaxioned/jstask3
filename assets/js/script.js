@@ -5,7 +5,7 @@ const cross=document.querySelectorAll('.cross');
 // const menus=document.querySelectorAll('.hamburger');
 ham[0].addEventListener('click',function(){
    right[0].style.transform='rotate(-10deg)';
-   menus[0].style.transform='rotate(-50deg)';
+   menus[0].style.transform='translate(100px)';
    this.style.transform="rotate(-90deg)";
    cross[0].style.transform='rotate(-90deg)';
    this.style.top='-20%';
