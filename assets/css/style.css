@@ -132,10 +132,10 @@ li {
   position: absolute;
   border-radius: 0 0 100px 0;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   background-color: #FF7979;
   text-indent: -9999px;
+  transition: all ease-in-out 2s;
 }
 
 .cross {
@@ -154,12 +154,18 @@ li {
   text-indent: 0;
 }
 
+.cross::before {
+  content: "\f00d";
+  margin-left: 43%;
+}
+
 .hamburger {
   left: 12%;
 }
 
 .menus {
   margin-top: 16%;
+  transition: all ease-in-out 2s;
 }
 
 .menus ul li{
@@ -170,6 +176,10 @@ li {
 
 .amazing-artical .wrapper {
   padding: 6.8% 0;
+}
+
+.right {
+  transition: all ease-in-out 2s;
 }
 
 .amazing-artical h2 {
