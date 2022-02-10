@@ -164,7 +164,8 @@ li {
 }
 
 .menus {
-  margin-top: 16%;
+  margin-top: 80%;
+  background-color: #000;
   transition: all ease-in-out 2s;
 }
 
