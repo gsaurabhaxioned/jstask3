@@ -119,6 +119,9 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+main {
+  background-color: #fff;
+}
 
 .amazing-artical {
   position: relative;
@@ -136,6 +139,7 @@ li {
   background-color: #FF7979;
   text-indent: -9999px;
   transition: all ease-in-out 2s;
+  z-index: 1;
 }
 
 .cross {
@@ -164,8 +168,12 @@ li {
 }
 
 .menus {
-  margin-top: 80%;
+  width: 12%;
+  height: 100%;
+  padding-top: 56%;
+  position: absolute;
   background-color: #000;
+  box-sizing: border-box;
   transition: all ease-in-out 1s;
 }
 
@@ -180,6 +188,8 @@ li {
 }
 
 .right {
+  margin-left: 12%;
+  background-color: #fff;
   transition: all ease-in-out 2s;
 }
 
