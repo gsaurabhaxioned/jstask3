@@ -133,6 +133,7 @@ main {
   width: 100px;
   height: 100px;
   position: absolute;
+  left: 12%;
   border-radius: 0 0 100px 0;
   display: flex;
   align-items: center;
@@ -140,11 +141,6 @@ main {
   text-indent: -9999px;
   transition: all ease-in-out 2s;
   z-index: 1;
-}
-
-.cross {
-  left: 85px;
-  border-radius: 0 0 0 100px;
 }
 
 .hamburger::before,.cross::before {
@@ -160,11 +156,6 @@ main {
 
 .cross::before {
   content: "\f00d";
-  margin-left: 43%;
-}
-
-.hamburger {
-  left: 12%;
 }
 
 .menus {
