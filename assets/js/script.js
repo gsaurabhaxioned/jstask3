@@ -12,6 +12,15 @@ ham[0].addEventListener('click',function(){
    this.style.top='-20%';
    cross[0].style.left='12%';
 });
+cross[0].addEventListener('click',function(){
+   main[0].style.backgroundColor="#fff";
+   right[0].style.transform='rotate(0)';
+   menus[0].style.transform='translate(0)';
+   this.style.transform="rotate(0)";
+   cross[0].style.transform='rotate(0)';
+   this.style.top='20%';
+   cross[0].style.left='85px';
+});
 
 
 
