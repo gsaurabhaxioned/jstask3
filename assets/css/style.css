@@ -155,6 +155,8 @@ main {
 .main-page {
   width: 80vw;
   margin:50px auto;
+  transform-origin:top left;
+  transition: all ease-in-out 1s;
 }
 
 .ham::before,.cross::before {
