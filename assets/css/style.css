@@ -179,14 +179,14 @@ main {
 }
 
 .right {
-  margin-left: 12%;
+  margin-left: 25%;
   background-color: #fff;
   transition: all ease-in-out 1s;
 }
 
 .right-after-click {
   transform-origin: 0;
-  transform: rotate((-20deg));
+  transform: rotate(-20deg);
 }
 
 .main-after-click {
