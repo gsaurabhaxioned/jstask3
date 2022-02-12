@@ -1,15 +1,18 @@
+const main=document.querySelectorAll('main');
 const main_page = document.querySelectorAll('.main-page');
 const hamburger_controls= document.querySelectorAll('.hamburger');
 const ham = document.querySelectorAll('.ham');
 const cross = document.querySelectorAll('.cross');
 ham[0].addEventListener('click', function () {
   hamburger_controls[0].style.transform="rotate(-90deg)";
-  main_page[0].style.transform="rotate(-20deg)";
+  main_page[0].style.transform="rotate(-30deg)";
+  main[0].style.backgroundColor="#333333";
   });
 
 cross[0].addEventListener('click',function(){
   hamburger_controls[0].style.transform="rotate(0)";
   main_page[0].style.transform="rotate(0deg)";
+  main[0].style.backgroundColor="#fff";
 })
 
   // this.classList.toggle('cross');
