@@ -141,8 +141,8 @@ main {
 
 .ham,.cross {
   position: absolute;
-  top: 60%;
-  left: 60%;
+  top: 67%;
+  left: 63%;
   display: block;
   color: #fff;
   font-size: 26px;
@@ -150,7 +150,8 @@ main {
 }
 
 .cross {
-  left: 30%;
+  top: 60%;
+  left: 20%;
 }
 
 .main-page {
@@ -166,7 +167,7 @@ main {
   margin-left: 26%;
   float: right;
   font-family: "fontAwesome";
-  font-size: 27px;
+  font-size: 28px;
   color: #fff;
   cursor: pointer;
   text-indent: 0;
@@ -179,16 +180,16 @@ main {
 
 .menus {
   position: fixed;
-  bottom: 80px;
-  background-color: #000;
-  transform: translateX(-200px);
-  transition: all ease-in-out 1s;
+  bottom: 0;
+  background-color: transparent;
+  transform: translateX(-300px);
+  transition: all ease-in-out 1.5s;
   box-sizing: border-box;
   z-index: 100;
 }
 
 .menus ul {
-  margin-left: 20px;
+  margin-left: 16px;
 }
 
 .menus ul li{
