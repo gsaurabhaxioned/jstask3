@@ -184,6 +184,15 @@ main {
   transition: all ease-in-out 1s;
 }
 
+.right-after-click {
+  transform-origin: 0;
+  transform: rotate((-20deg));
+}
+
+.main-after-click {
+  background-color: #000;
+}
+
 .amazing-artical h2 {
   font-size: 31px;
   font-weight: bold;
