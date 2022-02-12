@@ -4,8 +4,9 @@ const right = document.querySelectorAll('.right');
 const menus = document.querySelectorAll('.menus');
 const cross = document.querySelectorAll('.cross');
 ham[0].addEventListener('click', function () {
-
   this.classList.toggle('cross');
+  right[0].classList.toggle('right-after-click');
+  main[0].classList.toggle('main-after-click');
    // main[0].style.backgroundColor = "#000";
    // right[0].style.transform = 'rotate(-20deg)';
    // right[0].style.transformOrigin = '0 0';
