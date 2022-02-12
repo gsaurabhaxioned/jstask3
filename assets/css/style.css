@@ -123,27 +123,41 @@ main {
   background-color: #fff;
 }
 
-.amazing-artical {
+.button-controls {
+  position: fixed;
+}
+
+.hamburger {
+  width: 200px;
+  height: 200px;
   position: relative;
-  display: flex;
-  transform: translateX(-183px);
-}
-
-.hamburger,.cross {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  left: 12%;
-  border-radius: 0 0 100px 0;
-  display: flex;
-  align-items: center;
+  top: -130px;
+  left: -100px;
+  border-radius: 50%;
   background-color: #FF7979;
-  text-indent: -9999px;
-  transition: all ease-in-out 2s;
-  z-index: 1;
+  transition: all 1s ease-in-out;
 }
 
-.hamburger::before,.cross::before {
+.ham,.cross {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  display: block;
+  color: #fff;
+  font-size: 26px;
+  text-indent: -9999px;
+}
+
+.cross {
+  left: 30%;
+}
+
+.main-page {
+  width: 80vw;
+  margin:50px auto;
+}
+
+.ham::before,.cross::before {
   content: "\f0c9";
   margin-left: 26%;
   float: right;
@@ -158,23 +172,20 @@ main {
   content: "\f00d";
 }
 
+
 .menus {
-  width: 12%;
-  height: 100%;
-  padding-top: 56%;
-  position: absolute;
+  position: fixed;
   background-color: #000;
   box-sizing: border-box;
   transition: all ease-in-out 1s;
+  z-index: 100;
 }
 
 .menus ul li{
-  margin-top: 35%;
   display: block;
-  text-align: right;
 }
 
-.amazing-artical .wrapper {
+/* .amazing-artical .wrapper {
   padding: 6.8% 0;
 }
 
@@ -218,7 +229,7 @@ main {
 
 .amazing-artical figure {
   margin-top: 19px;
-}
+} */ 
 
 
 /*=================================
