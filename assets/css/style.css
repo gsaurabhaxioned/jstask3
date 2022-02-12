@@ -125,13 +125,14 @@ main {
 
 .button-controls {
   position: fixed;
+  z-index: 100;
 }
 
 .hamburger {
   width: 200px;
   height: 200px;
   position: relative;
-  top: -130px;
+  top: -100px;
   left: -100px;
   border-radius: 50%;
   background-color: #FF7979;
@@ -153,8 +154,9 @@ main {
 }
 
 .main-page {
-  width: 80vw;
-  margin:50px auto;
+  padding: 6.8% 17.6%;
+  margin:auto;
+  background-color: #fff;
   transform-origin:top left;
   transition: all ease-in-out 1s;
 }
@@ -177,36 +179,53 @@ main {
 
 .menus {
   position: fixed;
+  bottom: 80px;
   background-color: #000;
-  box-sizing: border-box;
+  transform: translateX(-200px);
   transition: all ease-in-out 1s;
+  box-sizing: border-box;
   z-index: 100;
 }
 
+.menus ul {
+  margin-left: 20px;
+}
+
 .menus ul li{
+  margin:40px 20px;
   display: block;
 }
 
-/* .amazing-artical .wrapper {
-  padding: 6.8% 0;
+.menus ul li:nth-child(2){
+  margin:40px 30px;
 }
 
-.right {
-  margin-left: 25%;
-  background-color: #fff;
-  transition: all ease-in-out 1s;
+.menus ul li:nth-child(3){
+  margin:40px 60px;
 }
 
-.right-after-click {
-  transform-origin: 0;
-  transform: rotate(-20deg);
+.menus ul li a::before {
+  content: "\e3af";
+  padding: 10px;
+  font-family: "fontAwesome";
+  color: #fff;
 }
 
-.main-after-click {
-  background-color: #000;
+.menus ul li:nth-child(2)::before {
+  content: "\f007";
 }
 
-.amazing-artical h2 {
+.menus ul li:nth-child(2)::before {
+  content: "\f0e0";
+}
+
+.menus ul li a {
+  color: #fff;
+}
+
+
+
+.main-page h2 {
   font-size: 31px;
   font-weight: bold;
 }
@@ -217,21 +236,21 @@ main {
   opacity: 0.7;
 }
 
-.amazing-artical p {
+.main-page p {
   margin-top: 21px;
   font-size: 15px;
   line-height: 23px;
 }
 
-.amazing-artical h3 {
+.main-page h3 {
   margin-top: 54px;
   font-size: 18px;
   font-weight: bold;
 }
 
-.amazing-artical figure {
+.main-page figure {
   margin-top: 19px;
-} */ 
+} 
 
 
 /*=================================
