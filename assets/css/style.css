@@ -103,18 +103,6 @@ li {
   width: 65%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
-
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
 
 /*=================================
   main styling starts here
@@ -159,7 +147,7 @@ main {
   margin:auto;
   background-color: #fff;
   transform-origin:top left;
-  transition: all ease-in-out 1s;
+  transition: all ease-in-out 0.5s;
 }
 
 .ham::before,.cross::before {
@@ -176,55 +164,6 @@ main {
 .cross::before {
   content: "\f00d";
 }
-
-
-.menus {
-  position: fixed;
-  bottom: 0;
-  background-color: transparent;
-  transform: translateX(-300px);
-  transition: all ease-in-out 1.5s;
-  box-sizing: border-box;
-  z-index: 100;
-}
-
-.menus ul {
-  margin-left: 16px;
-}
-
-.menus ul li{
-  margin:40px 20px;
-  display: block;
-}
-
-.menus ul li:nth-child(2){
-  margin:40px 30px;
-}
-
-.menus ul li:nth-child(3){
-  margin:40px 60px;
-}
-
-.menus ul li a::before {
-  content: "\e3af";
-  padding: 10px;
-  font-family: "fontAwesome";
-  color: #fff;
-}
-
-.menus ul li:nth-child(2)::before {
-  content: "\f007";
-}
-
-.menus ul li:nth-child(2)::before {
-  content: "\f0e0";
-}
-
-.menus ul li a {
-  color: #fff;
-}
-
-
 
 .main-page h2 {
   font-size: 31px;
@@ -244,7 +183,7 @@ main {
 }
 
 .main-page h3 {
-  margin-top: 54px;
+  margin-top: 18px;
   font-size: 18px;
   font-weight: bold;
 }
@@ -253,24 +192,56 @@ main {
   margin-top: 19px;
 } 
 
+.menus {
+  position: fixed;
+  bottom: 0;
+  background-color: transparent;
+  transform: translateX(-300px);
+  transition: all ease 1s;
+  transition-delay: 0.5s;
+  box-sizing: border-box;
+  z-index: 100;
+}
 
-/*=================================
-  main styling ends here
-=================================*/
+.menus ul {
+  margin-left: 16px;
+}
 
-/*=================================
-  footer styling starts here
-=================================*/ 
+.menus ul li{
+  margin:40px 0;
+  display: block;
+}
+
+.menus ul li:nth-child(2){
+  margin:40px 30px;
+}
+
+.menus ul li:nth-child(3){
+  margin:40px 60px;
+}
+
+.menus ul li a {
+  color: #fff;
+}
+
+.menus ul li a::before {
+  content: "\f015";
+  padding: 10px;
+  font-size: 21px;
+  font-family: "fontAwesome";
+  color: #fff;
+}
+
+.menus ul li:nth-child(2) a::before {
+  content: "\f007";
+}
+
+.menus ul li:nth-child(3) a::before {
+  content: "\f0e0";
+}
 
 
 
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
 
 /*media query starts*/
 /*media query for 995px starts here*/
