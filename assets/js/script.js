@@ -19,16 +19,3 @@ cross[0].addEventListener('click', function () {
   menu[0].style.transform = "translateX(-300px)";
 });
 
-// this.classList.toggle('cross');
-// right[0].classList.toggle('right-after-click');
-// main[0].classList.toggle('main-after-click');
-// main[0].style.backgroundColor = "#000";
-// right[0].style.transform = 'rotate(-20deg)';
-// right[0].style.transformOrigin = '0 0';
-// menus[0].style.left = "10%";
-// menus[0].style.paddingTop = "35%";
-// this.classList.add('cross');
-// this.classList.remove('hamburger');
-
-// console.log(cross);
-// console.log(cross[0]);
